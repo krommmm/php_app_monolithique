@@ -148,9 +148,9 @@ function focus()
                $email = htmlspecialchars($_GET['email']);
                $message = htmlspecialchars($_GET['message']);
 
-               $destinataire = "thibault.boutaud@gmx.fr";
+               $destinataire = "monEmail@gmail.fr";
                $sujet = "Terrain des hauts de saint benoit";
-               $headers = "From: thibault.boutaud@gmx.fr";
+               $headers = "From: monEmail@gmail.fr";
                mail($destinataire, $sujet, $message, $headers);
 
                header("location: focus?action=visit&id=" . $id . "&success=1&message=Email envoyé");
