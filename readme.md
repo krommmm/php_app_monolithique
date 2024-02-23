@@ -1,4 +1,4 @@
-# Application monolithique php
+# Application monolithique php MVC
 
 ## Site de location de terrains
 
@@ -9,6 +9,14 @@
      <img style="width: 100px;" src="public/assets/pictures/ex/home_admin.png" alt="home">
       <img style="width: 100px;" src="public/assets/pictures/ex/focus_admin.png" alt="home">
 
+      ![home](public/assets/pictures/ex/home.png) 
+      ![focus](public/assets/pictures/ex/focus.png)
+       ![signup](public/assets/pictures/ex/signup.png)
+        ![login](public/assets/pictures/ex/login.png) 
+        ![home_admin](public/assets/pictures/ex/home_admin.png) 
+        ![focus_admin](public/assets/pictures/ex/focus_admin.png)
+
+
 ## Technos :
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -18,34 +26,10 @@
 
 ## Description:
 
-Serveur node.js , API restful, crud pour utilisateur et recettes.<br>
-Front avec react, boostraped avec create-react-app.<br>
-Des recettes sont affichées et une barre de recherche permet de trier les recettes par nom, ingrédients ou tags.<br>
-Une connexion sécurisée permet de se crééer un compte et de crud les recettes selons ses droits.<br>
+Application php monolithique en MVC
 
-## URL :
 
-> https://cuisinefamille.net/
+### Installer php et composer 
 
-## Variables d'environnement:
-
-> Créer un fichier .env dans le directory à la racine.<br>
-> PORT = 2000<br>
-> IDENTIFIANTS= MDB_USER:MDB_PASSWORD<br>
-> SECRET_KEY = "ADD_A_SECRET_KEY" <br>
-
-### Installer node.js
-
-### Ajouter variables d'environnement
-
-### Installer les dépendances:
-
-`npm install`
-
-### Lancer le serveur:
-
-`node server`
-
-### Lancer l'application:
-
-`npm run start`
+### Installer les dépendances avec composer
+`composer install`
