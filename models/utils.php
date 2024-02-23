@@ -2,13 +2,6 @@
 function getConnexion()
 {
 
-    // $host = "gobliihthibault.mysql.db";
-    // $dbname = "gobliihthibault";
-    // $charset = "utf8";
-    // $user = "gobliihthibault";
-    // $password = "R2d2A34b434sdJGD43";
-
-
     $host = "localhost";
     $dbname = "saint_benoit";
     $charset = "utf8";
