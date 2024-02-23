@@ -1,0 +1,45 @@
+header{
+    position:relative;
+}
+header .header{
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,0.18);
+    padding: 10px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    color: black;
+    /* backdrop-filter: blur(10px); */
+    background-color: white;
+    font-family:titre;
+    height: 70px;
+}
+
+header .header .left{
+    position:absolute;
+    left: 25%;
+}
+
+header .header .logo{
+    width: 200px;
+}
+header .header .center{
+    display:flex;
+    align-items: center;
+    margin-left: 18px;
+    position:absolute;
+    left: 40%;
+}
+header .header .center p{
+    margin-left: 15px;
+    cursor:pointer;
+    transition-duration:0.2s;
+    font-size:20px;
+}
+
+header .header .center p:hover{
+    color: grey;
+}

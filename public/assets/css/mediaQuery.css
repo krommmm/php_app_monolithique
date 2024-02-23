@@ -1,0 +1,168 @@
+@media screen and (max-width: 1426px) {
+	body header .header .center {
+		left: 30%;
+	}
+	.banner h1 {
+		max-width: 43%;
+	}
+	body .terrain .bottom .description {
+		display: none;
+	}
+	body .terrain .bottom .prix {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.banner h1 {
+		max-width: 50%;
+	}
+	.focus .focus_container .left .bottom {
+		min-width: 200px;
+	}
+	body .focus .focus_container .focus_admin_text {
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	body header .header .center {
+		left: 20%;
+	}
+	.banner h1 {
+		font-size: 40px;
+	}
+	body .terrain .bottom .description {
+		display: none;
+	}
+	body .terrain .bottom .prix {
+		display: none;
+	}
+	body .focus .focus_container {
+		flex-direction: column;
+	}
+	body .focus .focus_container .left {
+		margin-right: 0px;
+	}
+	body .focus .focus_container p {
+		max-width: 200px;
+	}
+	body .focus .focus_container .right {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+	body .focus .bottom {
+		padding: 0px 0px 0px 0px;
+		width: 100%;
+	}
+	.bordure .prix {
+		padding-right: 20px;
+	}
+	.copyRight p {
+		left: 20%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body .form_home {
+		width: auto;
+	}
+	body .connexion,
+	body .inscription {
+		width: 300px;
+		border-radius: 0px;
+	}
+	body .connexion input,
+	body .inscription input {
+		width: 70%;
+	}
+	body .connexion .btn_form,
+	body .inscription .btn_form {
+		width: 200px;
+	}
+	header .header .center p {
+		margin-left: 10px;
+		font-size: 13px;
+	}
+	body header .header .center {
+		left: 11%;
+	}
+	body .banner {
+		position: relative;
+		height: 400px;
+	}
+	body .banner h1 {
+		font-size: 28px;
+	}
+	body .terrains {
+		flex-direction: column;
+	}
+	body .terrain {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 43px;
+	}
+	body .bottom {
+		width: 100%;
+		padding: 0px 0px 0px 0px;
+	}
+	.terrain .bottom .titre {
+		text-align: center;
+	}
+	.terrain .bottom {
+		text-align: center;
+	}
+	.terrain_img {
+		height: 64vw;
+	}
+	body .transition {
+		height: 50px;
+	}
+	.terrain button {
+		margin: 15px;
+	}
+	body footer {
+		margin-top: 50px;
+	}
+	.focus .diapo,
+	.focus .slide {
+		width: 267px;
+	}
+	body .focus .focus_container .left {
+		border: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	body .focus .focus_container .left .top {
+		position: relative;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+	.focus .focus_container .left .top .diapo .slide_container .slide img {
+		height: 200px;
+	}
+	.myImgOrigin {
+		margin: 0px;
+	}
+	.margin20 {
+		width: 200px;
+		align-self: center;
+	}
+	.myImgFocus {
+		margin: 0px;
+		padding: 0px;
+	}
+	.focus_modif_img_our {
+		width: 42px;
+	}
+	body .focus .focus_container .left .bottom {
+		padding: 0px;
+	}
+	.focus .focus_container .right {
+		border: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+}

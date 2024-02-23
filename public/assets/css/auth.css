@@ -1,0 +1,40 @@
+.inscription, .connexion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(247,247,247);
+	width: 400px;
+	margin: auto;
+	padding: 30px;
+	border-radius: 15px;
+}
+.inscription .btn, .connexion .btn{
+    margin-top:5px;
+}
+
+.inscription .input_container , .connexion .input_container{
+	display: flex;
+	margin: 10px;
+}
+
+.inscription .icon_container, .connexion .icon_container {
+	background-color: white;
+	padding: 5px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inscription .icon_container i, .connexion .icon_container i {
+	color: rgb(103, 101, 102);
+}
+.connexion input, .inscription input {
+	border: none;
+	background-color: rgb(225, 222, 233);
+	height: 40px;
+	width: 300px;
+	padding-left: 15px;
+	font-weight: 600;
+	color: black;
+}
