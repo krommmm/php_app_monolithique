@@ -2,19 +2,9 @@
 
 ## Site de location de terrains
 
- <img style="width: 100px;" src="public/assets/pictures/ex/home.png" alt="home">
-  <img style="width: 100px;" src="public/assets/pictures/ex/focus.png" alt="home">
-   <img style="width: 100px;" src="public/assets/pictures/ex/signup.png" alt="home">
-    <img style="width: 100px;" src="public/assets/pictures/ex/login.png" alt="home">
-     <img style="width: 100px;" src="public/assets/pictures/ex/home_admin.png" alt="home">
-      <img style="width: 100px;" src="public/assets/pictures/ex/focus_admin.png" alt="home">
+ <img style="width: 100px;" src="public/assets/pictures/ex/home.png" alt="home">  <img style="width: 100px;" src="public/assets/pictures/ex/focus.png" alt="home">   <img style="width: 100px;" src="public/assets/pictures/ex/signup.png" alt="home">    <img style="width: 100px;" src="public/assets/pictures/ex/login.png" alt="home">     <img style="width: 100px;" src="public/assets/pictures/ex/home_admin.png" alt="home">      <img style="width: 100px;" src="public/assets/pictures/ex/focus_admin.png" alt="home">
 
-      ![home](public/assets/pictures/ex/home.png) 
-      ![focus](public/assets/pictures/ex/focus.png)
-       ![signup](public/assets/pictures/ex/signup.png)
-        ![login](public/assets/pictures/ex/login.png) 
-        ![home_admin](public/assets/pictures/ex/home_admin.png) 
-        ![focus_admin](public/assets/pictures/ex/focus_admin.png)
+
 
 
 ## Technos :
