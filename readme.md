@@ -19,29 +19,29 @@
 Application php monolithique en MVC
 
 ### Modifications:
-Changer l'email dans controllers/focus( La logique server n'a pas été configuré pour l'utilisation en localhost)
-Changer le code sercret dans controllers/auth
-Changer les identifiants dans models/utils
-Créer un dossier vendor à la racine
-Créer un dossier lots dans public/assets/pictures
+Changer l'email dans controllers/focus( La logique server n'a pas été configuré pour l'utilisation en localhost)<br/>
+Changer le code sercret dans controllers/auth<br/>
+Changer les identifiants dans models/utils<br/>
+Créer un dossier vendor à la racine<br/>
+Créer un dossier lots dans public/assets/pictures<br/>
 
 ### configuration de la BDD
-type: innoDB
+type: innoDB<br/><br/>
 
-Table lot:
-uuid varchar(250) primary key
-name varchar(250)
-description text
-price int
-surface int
-surface_plancher int
-image_1 à image_6 varchar(250)
+Table lot:<br/>
+uuid varchar(250) primary key<br/>
+name varchar(250)<br/>
+description text<br/>
+price int<br/>
+surface int<br/>
+surface_plancher int<br/>
+image_1 à image_6 varchar(250)<br/><br/>
 
-Table user:
-uuid varchar(250) primary key
-name varchar(250)
-email varchar(250)
-password text
+Table user:<br/>
+uuid varchar(250) primary key<br/>
+name varchar(250)<br/>
+email varchar(250)<br/>
+password text<br/>
 
 
 ### Installer php et composer 
