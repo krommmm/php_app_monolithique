@@ -6,7 +6,7 @@
 	cursor: pointer;
 	transition-duration: 0.2s;
 	max-width: 100%;
-	border-radius: 15px;
+	border-radius: 5px;
 	color: black;
 	font-family: inherit;
 	font-size: 15px;
@@ -28,10 +28,29 @@
 }
 
 .blue {
-	background-color: rgb(251, 202, 27);
+	background-color: rgb(37, 99, 235);
+	color: white;
+}
+.blue_foncé {
+	background-color: rgb(59, 89, 152);
+	color: white;
+	transition-duration: 0.3s;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.blue_foncé:hover {
+	background-color: rgb(37, 99, 235);
 }
 .red {
 	background-color: #ff6363;
+}
+.blancSurNoir {
+	background-color: black;
+	color: white;
+}
+.noirSurBlanc{
+	background-color: white;
+	color: black;
 }
 
 .error {

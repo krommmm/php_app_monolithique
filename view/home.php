@@ -23,7 +23,9 @@
 				<a href="auth?action=login">
 					<p>Connexion</p>
 				</a>
-				<p>Contact</p>
+				<a href="contact?action=visit">
+					<p>Contact</p>
+				</a>
 			</div>
 		</div>
 	</header>
@@ -43,8 +45,8 @@
 		<div class="bottom">
 			<p class="titre">' . $lots[$i]['name'] . '</p>
 			<p class="description">' . $lots[$i]['description'] . '</p>
-			<p class="prix">' . $lots[$i]['price'] . ' €</p>
-			<a href="focus?action=visit&id=' . $lots[$i]['uuid'] . '"><button class="btn blue">Explorer</button></a>
+			<p class="prix">' . $lots[$i]['price'] . ' <span class="euro">€</span></p>
+			<a href="focus?action=visit&id=' . $lots[$i]['uuid'] . '"><button class="btn noirSurBlanc">Explorer</button></a>
 		</div>
 	</div>
 		';
@@ -58,6 +60,7 @@
 	include("footer.php");
 	?>
 	<script src="public/js/footer.js"></script>
+	<script src="public/js/animation.js"></script>
 
 
 </body>

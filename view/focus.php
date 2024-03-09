@@ -22,13 +22,18 @@
 				<a href="auth?action=login">
 					<p>Connexion</p>
 				</a>
-				<p>Contact</p>
+				<a href="contact?action=visit">
+					<p>Contact</p>
+				</a>
 			</div>
 		</div>
 	</header>
 
 	<section class="focus">
 		<div class="focus_container">
+			<?php 
+			// echo '	<h1>' . $lot['name'] . '</h1> ' 
+			?>
 			<div class="left">
 				<div class="top">
 					<div class="diapo">
@@ -55,12 +60,12 @@
 					
 						<div class="bordure">
 						
-					 	<p>' . $lot['name'] . '</p> 
+					 	<p class="nameFocus">' . $lot['name'] . '</p> 
 					 	<p class="prix">' . $lot['price'] . ' €
 					 </div>
-					<p>' . $lot['description'] . '</p> 
-					<p>Surface : ' . $lot['surface'] . ' m²</p> 
-					<p>Surface plancher : ' . $lot['surface_plancher'] . ' m²</p> 
+					<p><span class="description_title">Description</span> : <br/>' . $lot['description'] . '</p> 
+					<p><span class="surface">Surface</span> : ' . $lot['surface'] . ' m²</p> 
+					<p><span class="surface_plancher">Surface plancher</span> : ' . $lot['surface_plancher'] . ' m²</p> 
 				
 				
 				
@@ -88,7 +93,7 @@
 						<input type="text" name="email" placeholder="Ex: martinD@gmail.fr" />
 						<label>Message:</label>
 						<textarea name="message" placeholder="Bonjour, je suis intéressé ..."></textarea>
-						<button class="btn blue margin20" type="submit">Envoyer</button>
+						<button class="btn blue_foncé margin20" type="submit">Envoyer</button>
 					</form>
 					<?php
 					if (isset($_GET['error']) && !empty($_GET['error'])) {

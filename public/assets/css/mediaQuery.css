@@ -11,6 +11,21 @@
 	body .terrain .bottom .prix {
 		display: none;
 	}
+	body .bottom {
+		height: 73px;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.contact {
+		flex-direction: column;
+	}
+	body .contact .right {
+		margin: 100px 0px 0px 0px;
+	}
+	.banner h1 {
+		top: 11%;
+	}
 }
 
 @media screen and (max-width: 1200px) {
@@ -23,6 +38,30 @@
 	body .focus .focus_container .focus_admin_text {
 		max-width: 400px;
 	}
+	.terrain img {
+		height: 26vw;
+	}
+	.terrain {
+		width: 46vw;
+	}
+	body .bottom {
+		width: 25vw;
+	}
+	.focus .focus_container {
+		display: flex;
+		flex-direction: column;
+	}
+	.focus .focus_container .right {
+		margin-top: 50px;
+	}
+	.focus .focus_container .left {
+		height: 100%;
+		margin-top: 100px;
+		margin-right: 0px;
+	}
+	.focus .focus_container .right {
+		margin-left: 0px;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -31,6 +70,7 @@
 	}
 	.banner h1 {
 		font-size: 40px;
+		top: 30%;
 	}
 	body .terrain .bottom .description {
 		display: none;
@@ -45,7 +85,7 @@
 		margin-right: 0px;
 	}
 	body .focus .focus_container p {
-		max-width: 200px;
+		max-width: 261px;
 	}
 	body .focus .focus_container .right {
 		margin-left: 0px;
@@ -61,11 +101,126 @@
 	.copyRight p {
 		left: 20%;
 	}
+
+	body .focus .bottom {
+		padding: 0px 0px 0px 0px;
+		width: 480px;
+	}
+	body .focus .focus_container p {
+		max-width: 470px;
+	}
+	.focus .focus_container .left .bottom {
+		min-width: 200px;
+		width: 480px;
+		margin: auto;
+	}
 }
 
 @media screen and (max-width: 600px) {
+	body .contact .googleMap {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	body .contact_right input{
+		width: 200px;
+		height: 10px;
+		margin: 10px;
+	}
+	body .contact_form_mail textarea {
+		width: 210px;
+	}
+	body .contact_right{
+		margin-top:50px;
+	}
+	body .contact_right label{
+		font-size:10px;
+		display:none;
+	}
+	body .contact_container{
+		padding: 0px;
+	}
+	/* body .contact .googleMap {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	html body .contact_right {
+		display: flex;
+		flex-direction: column;
+	background-color: transparent;
+		box-shadow: none;
+	  }
+	  body .contact{
+		background-image:none;
+		background: radial-gradient( circle, rgba(0, 0, 0, 1) 0%, rgba(121, 112, 112, 1) 100% );
+	  } */
+	.focus_container h1 {
+		display: none;
+	}
+	.focus .focus_container {
+		padding-top: 0px;
+		background: none;
+		background-color: white;
+		margin-top: 0px;
+	}
+	body .connexion_container {
+		width: auto;
+		border-radius: 0px;
+	}
+	body .inscription_container {
+		width: auto;
+		border-radius: 0px;
+	}
+	body .inscription_container {
+		width: auto;
+		margin-top: 50px;
+	}
+	body .transition {
+		height: 90px;
+	}
+	body .contact_right {
+		width: 100%;
+		padding: 0px;
+	}
+	body .contact_left {
+		width: 90%;
+	}
+	body .contact_top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	body .contact {
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 0px;
+	}
+	body .contact_form_mail {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: white;
+		padding-bottom: 84px;
+	}
+	body .contact label {
+		margin: 10px;
+		color: black;
+	}
+	body .contact h1 {
+		margin: 0px;
+		padding-top: 50px;
+	}
+	body .adresse {
+		margin-bottom: 0px;
+	}
 	body .form_home {
 		width: auto;
+	}
+	body .connexion,
+	body .inscription {
+		width: 300px;
+		border-radius: 0px;
 	}
 	body .connexion,
 	body .inscription {
@@ -76,10 +231,11 @@
 	body .inscription input {
 		width: 70%;
 	}
-	body .connexion .btn_form,
-	body .inscription .btn_form {
-		width: 200px;
+	body .connexion .blue_foncé,
+	body .inscription .blue_foncé {
+		width: 226px;
 	}
+
 	header .header .center p {
 		margin-left: 10px;
 		font-size: 13px;
@@ -116,7 +272,7 @@
 		height: 64vw;
 	}
 	body .transition {
-		height: 50px;
+		height: 90px;
 	}
 	.terrain button {
 		margin: 15px;
@@ -126,7 +282,7 @@
 	}
 	.focus .diapo,
 	.focus .slide {
-		width: 267px;
+		width: 320px;
 	}
 	body .focus .focus_container .left {
 		border: none;
@@ -157,12 +313,33 @@
 	.focus_modif_img_our {
 		width: 42px;
 	}
-	body .focus .focus_container .left .bottom {
-		padding: 0px;
-	}
+
 	.focus .focus_container .right {
 		border: none;
 		-webkit-box-shadow: none;
 		box-shadow: none;
+	}
+	body .terrain img {
+		height: 64vw;
+	}
+	body .bottom {
+		width: 100%;
+		height: 100px;
+		left: 0px;
+		padding: 0px;
+	}
+	body .focus .bottom {
+		padding: 0px 0px 0px 0px;
+		width: 267px;
+		padding: 10px;
+	}
+	body .terrain {
+		width: 100%;
+	}
+
+	body .focus .focus_container .left .bottom {
+		min-width: 200px;
+		width: 300px;
+		margin: auto;
 	}
 }

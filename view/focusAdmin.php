@@ -25,7 +25,9 @@
 				<a href="auth?action=login">
 					<p>Connexion</p>
 				</a>
-				<p>Contact</p>
+				<a href="contact?action=visit">
+					<p>Contact</p>
+				</a>
 			</div>
 		</div>
 	</header>

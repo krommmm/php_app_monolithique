@@ -3,7 +3,7 @@ require_once 'models/utils.php';
 function getLots()
 {
     $pdo = getConnexion();
-    $req = 'SELECT * FROM lot';
+    $req = 'SELECT * FROM lot ORDER BY id';
     $stmt = $pdo->prepare($req);
     $stmt->execute();
     $lots = $stmt->fetchAll(PDO::FETCH_ASSOC);

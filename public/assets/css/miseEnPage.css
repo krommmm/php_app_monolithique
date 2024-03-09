@@ -1,9 +1,9 @@
 body{
     box-sizing:border-box;
-    height:100vh;
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+    /* background-color: aliceblue; */
 }
 
 a{
@@ -13,5 +13,10 @@ a{
 
 .focus{
     flex: 1;
-	min-height: 90vh;
+	min-height: 85vh;
 }
+.contact{
+
+    min-height: 800px;
+}
+

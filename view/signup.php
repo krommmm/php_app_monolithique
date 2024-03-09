@@ -22,16 +22,16 @@
                 <a href="auth?action=login">
                     <p>Connexion</p>
                 </a>
-                <p>Contact</p>
+                <a href="contact?action=visit">
+					<p>Contact</p>
+				</a>
             </div>
         </div>
     </header>
-    <section class="auth">
+   
 
-    </section>
-
-
-
+   
+<div class="inscription_container">
     <section class="inscription">
         <h1>Inscription</h1>
         <?php
@@ -70,14 +70,15 @@
                 <input type="text" name="secret_key" placeholder="clef secrète" />
             </div>
 
-            <button class="btn_form blue" type="submit">Envoyer</button>
+            <button class="btn_form blue_foncé" type="submit">Envoyer</button>
         </form>
 
         <a href="auth?action=login">
             <h2>Déjà inscrit ?</h2>
         </a>
-        <a href="auth?action=disconect"><button class="btn red">Deconnexion</button></a>
+        <a href="auth?action=disconect"><button class="btn blancSurNoir">Deconnexion</button></a>
     </section>
+    </div>
     <?php
     include("footer.php");
     ?>

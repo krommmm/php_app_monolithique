@@ -4,18 +4,29 @@
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	margin-top: 150px;
-	font-family: titre;
+	margin-top: 50px;
 }
-
+.focus_container h1 {
+	margin: 0px;
+	padding: 0px;
+	color: black;
+}
 .focus .focus_container {
 	display: flex;
+	flex-direction: column;
+
+	padding: 100px;
+	padding-top: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 55vw;
+	margin-top: 100px;
+	border-radius: 15px;
+	background-color: aliceblue;
 }
 .focus .focus_container .left {
-	border: 1px solid black;
-	-webkit-box-shadow: 5px 5px 15px 5px #000000;
-	box-shadow: 5px 5px 15px 5px #000000;
-	margin-right: 20px;
+	box-shadow: 1px 3px 10px -2px rgba(0, 0, 0, 0.78);
 }
 
 .focus .focus_container .left .top {
@@ -62,27 +73,33 @@ html body .focus_admin_text {
 .focus form {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+}
+.form_mail label {
+	align-self: start;
+	padding-left: 40px;
 }
 
 /* RIGHT */
 .focus .focus_container .right .top h2 {
 	text-align: center;
-	color: rgb(37, 126, 27);
+	color: black;
 }
 .focus .focus_container .right .top p {
 	text-align: center;
 }
 .focus .focus_container .right {
-	border: 1px solid black;
-	margin-left: 10px;
+	box-shadow: 1px 3px 10px -2px rgba(0, 0, 0, 0.78);
 	padding: 10px;
-	-webkit-box-shadow: 5px 5px 15px 5px #000000;
-	box-shadow: 5px 5px 15px 5px #000000;
+}
+.nameFocus {
+	font-family: titre;
 }
 
-.form_focus .prix {
+ .prix {
 	width: 90px;
 	margin-left: 10px;
+	font-weight: 600!important;
 }
 .form_focus input {
 	height: 30px;
@@ -145,4 +162,39 @@ html body .focus_admin_text {
 #myImgFocus_5,
 #myImgFocus_6 {
 	display: none;
+}
+
+body .focus .bottom {
+	width: 480px;
+	padding: 0px;
+	position: relative !important;
+	background-color: white;
+	left: 0%;
+	color: black;
+	height: 100%;
+}
+
+.focus .focus_container .left {
+	height: 100%;
+	margin-top: 100px;
+	transition-duration: 1s;
+}
+.focus .focus_container .left:hover {
+	box-shadow: 0px 10px 13px -7px #000, -27px -31px 8px -2px pink;
+}
+.focus .focus_container .right {
+	height: 100%;
+	background-color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	transition-duration: 1s;
+}
+.focus .focus_container .right:hover {
+	-webkit-box-shadow: 14px 15px 15px 5px pink;
+	box-shadow: 14px 15px 15px 5px pink;
+}
+.description_title,
+.surface,
+.surface_plancher {
+	font-weight: 600;
 }

@@ -2,6 +2,7 @@
 require_once './controllers/auth.php';
 require_once './controllers/home.php';
 require_once './controllers/focus.php';
+require_once './controllers/contact.php';
 
 try {
     if (!empty($_GET['demande'])) {
@@ -12,6 +13,13 @@ try {
             case 'home':
                 if (empty($url[1])) {
                     home();
+                } else {
+                    throw new Exception('Page inconnue');
+                }
+                break;
+            case 'contact':
+                if (empty($url[1])) {
+                    contact($_GET['action']);
                 } else {
                     throw new Exception('Page inconnue');
                 }

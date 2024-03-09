@@ -22,7 +22,9 @@
 				<a href="auth?action=login">
 					<p>Connexion</p>
 				</a>
-				<p>Contact</p>
+				<a href="contact?action=visit">
+					<p>Contact</p>
+				</a>
 			</div>
 		</div>
 	</header>
@@ -30,9 +32,10 @@
 		<img class="banner_img" src="./public/assets/pictures/modif_i.webp" alt="photo large saint benoit" />
 		<h1>LES HAUTS DE SAINT-BENOIT</h1>
 	</section>
+	<section class="formulaire_admin_section">
 	<?php echo '<h2 class="welcome">Bienvenue ' . $_SESSION['user_name'] . '</h2>' ?>
 	<form class="form_home" method="post" action="home?action=insert" enctype="multipart/form-data">
-		<h2>Créer un lot</h2>
+		<h2>Créer un nouveau lot ? </h2>
 		<input type="text" name="name" placeholder="Nom" />
 		<input type="number" name="price" placeholder="Prix" />
 		<textArea name="description" placeholder="Description"></textArea>
@@ -46,10 +49,11 @@
 		<label for="myImg_5"><img src="public/assets/pictures/img2.png" id="myImgOrigin_5" class="myImgOrigin" /></label><input type="file" id="myImg_5" name="image_5" />
 		<label for="myImg_6"><img src="public/assets/pictures/img2.png" id="myImgOrigin_6" class="myImgOrigin" /></label><input type="file" id="myImg_6" name="image_6" />
         </div>
-
-        
 		<button class="btn blue" type="submit">Créer</button>
 	</form>
+	</section> 
+	
+
 	<section class="terrains">
 		<?php
 		for ($i = 0; $i < count($lots); $i++) {

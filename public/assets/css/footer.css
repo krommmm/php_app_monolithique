@@ -1,6 +1,8 @@
 footer {
-	margin-top: 100px;
     position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }
 .copyRight {
 	height: 50px;

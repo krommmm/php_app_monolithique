@@ -30,7 +30,7 @@ const startCaroussel = () => {
 	if (largeurBody > 600) {
 		myNb = 500;
 	} else {
-		myNb = 267;
+		myNb = 320;
 	}
 	slide_container.style.width = `${
 		myNb * slide_container.childElementCount
