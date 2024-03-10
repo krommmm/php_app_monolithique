@@ -2,7 +2,7 @@
 
 ## Site de location de terrains
 
- <img style="width: 100px;" src="public/assets/pictures/ex/home.png" alt="home">  <img style="width: 100px;" src="public/assets/pictures/ex/focus.png" alt="home">   <img style="width: 100px;" src="public/assets/pictures/ex/signup.png" alt="home">    <img style="width: 100px;" src="public/assets/pictures/ex/login.png" alt="home">     <img style="width: 100px;" src="public/assets/pictures/ex/home_admin.png" alt="home">      <img style="width: 100px;" src="public/assets/pictures/ex/focus_admin.png" alt="home">
+ <img style="width: 100px;" src="public/assets/pictures/ex/home.png" alt="home">  <img style="width: 100px;" src="public/assets/pictures/ex/focus.png" alt="home">   <img style="width: 100px;" src="public/assets/pictures/ex/signup.png" alt="home">    <img style="width: 100px;" src="public/assets/pictures/ex/contact.png" alt="home">     <img style="width: 100px;" src="public/assets/pictures/ex/homeAdmin.png" alt="home">      <img style="width: 100px;" src="public/assets/pictures/ex/focusAdmin.png" alt="home">
 
 
 
