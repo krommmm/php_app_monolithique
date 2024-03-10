@@ -14,9 +14,9 @@ var compteur = 0;
 var transfert = 0;
 var indexNodes = 1;
 
-window.onresize = () => {
-	window.location.reload();
-};
+// window.onresize = () => {
+// 	window.location.reload();
+// };
 
 const startCaroussel = () => {
 	//creation d'un clone de la dernière image

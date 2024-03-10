@@ -18,7 +18,7 @@
 			<div class="center">
 				<a href="home">
 					<p>Accueil</p>
-				</a>
+				</a> 
 				<a href="auth?action=login">
 					<p>Connexion</p>
 				</a>
@@ -34,6 +34,7 @@
 	</section>
 	<section class="formulaire_admin_section">
 	<?php echo '<h2 class="welcome">Bienvenue ' . $_SESSION['user_name'] . '</h2>' ?>
+	<div class="home_form_container">
 	<form class="form_home" method="post" action="home?action=insert" enctype="multipart/form-data">
 		<h2>Créer un nouveau lot ? </h2>
 		<input type="text" name="name" placeholder="Nom" />
@@ -49,8 +50,9 @@
 		<label for="myImg_5"><img src="public/assets/pictures/img2.png" id="myImgOrigin_5" class="myImgOrigin" /></label><input type="file" id="myImg_5" name="image_5" />
 		<label for="myImg_6"><img src="public/assets/pictures/img2.png" id="myImgOrigin_6" class="myImgOrigin" /></label><input type="file" id="myImg_6" name="image_6" />
         </div>
-		<button class="btn blue" type="submit">Créer</button>
+		<button class="btn blue_foncé" type="submit">Créer</button>
 	</form>
+</div>
 	</section> 
 	
 

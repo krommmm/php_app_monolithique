@@ -55,6 +55,20 @@ function focus()
                $surface = isset($_POST['surface']) ? htmlspecialchars($_POST['surface']) : null;
                $surface_plancher = isset($_POST['surface_plancher']) ? htmlspecialchars($_POST['surface_plancher']) : null;
 
+               if(empty($_POST['name']) && empty($_POST['price']) && empty($_POST['description']) && empty($_POST['surface']) && empty($_POST['surface_plancher'])
+                && empty($_FILES['image_1']['tmp_name']) 
+                && empty($_FILES['image_2']['tmp_name'])
+                && empty($_FILES['image_3']['tmp_name'])
+                && empty($_FILES['image_4']['tmp_name'])
+                && empty($_FILES['image_5']['tmp_name'])
+                && empty($_FILES['image_6']['tmp_name'])
+               
+                ){
+                  header("location: focus?action=visit&id=" . $id . "&error=1&message=Aucun élément à modifier");
+                  exit();
+               }
+           
+
                $setValues = "";
                $params = array("uuid" => $id);
 
@@ -112,6 +126,8 @@ function focus()
                   $setValues .= "image_6 = :image_6,";
                   $params['image_6'] = $nouveauNomImage6;
                }
+
+
 
 
                $setValues = rtrim($setValues, ',');

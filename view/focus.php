@@ -93,7 +93,7 @@
 						<input type="text" name="email" placeholder="Ex: martinD@gmail.fr" />
 						<label>Message:</label>
 						<textarea name="message" placeholder="Bonjour, je suis intéressé ..."></textarea>
-						<button class="btn blue_foncé margin20" type="submit">Envoyer</button>
+						<button class="btn blue_foncé margin20 focusBtn" type="submit">Envoyer</button>
 					</form>
 					<?php
 					if (isset($_GET['error']) && !empty($_GET['error'])) {

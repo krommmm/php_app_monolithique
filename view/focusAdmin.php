@@ -62,12 +62,12 @@
 						<form class="form_focus" method="POST" action="focus?action=update" enctype="multipart/form-data">
 						<div class="bordure admin_border">
 						<input type="hidden" name="id" value="' . $lot['uuid'] . '" />
-					 	<p>' . $lot['name'] . '</p> <input type="text" name="name" placeholder="Titre" />
-					 	<p class="prix">' . $lot['price'] . ' €</p> <input type="number" name="price" placeholder="Prix" />
+					 	<p class="titreAdmin">' . $lot['name'] . '</p> <input type="text" name="name" placeholder="Titre" />
+					 	<p class="prixAdmin">' . $lot['price'] . ' €</p> <input type="number" name="price" placeholder="Prix" />
 					 </div>
-					<p class="focus_admin_text">' . $lot['description'] . '</p> <input type="text" name="description" placeholder="Description" />
-					<p>Surface : ' . $lot['surface'] . ' m²</p> <input type="number" name="surface" placeholder="Surface en m²" />
-					<p>Surface plancher : ' . $lot['surface_plancher'] . ' m²</p> <input type="number" name="surface_plancher" placeholder="Surface plancher en m²" />
+					<p class="focus_admin_text descriptionAdmin">' . $lot['description'] . '</p> <input type="text" name="description" placeholder="Description" />
+					<p class="surfaceAdmin">Surface : ' . $lot['surface'] . ' m²</p> <input type="number" name="surface" placeholder="Surface en m²" />
+					<p class="surfacePlancherAdmin">Surface plancher : ' . $lot['surface_plancher'] . ' m²</p> <input type="number" name="surface_plancher" placeholder="Surface plancher en m²" />
 					<div class="espace"></div>
 					<div class="label_zone">
 					<div class="wrap_modif_img"><label for="myImgFocus_1"><img  class="focus_modif_img_our" id="focus_modif_img_1" src="public/assets/pictures/lots/' . $lot['image_1'] . '" alt="" /></label>  <input type="file" id="myImgFocus_1" name="image_1" /></div>
@@ -86,6 +86,14 @@
 					</form> 
 					';
 					?>
+					       <?php
+    if (isset($_GET['error']) && !empty($_GET['error'])) {
+        echo '<p class="error">' . $_GET['message'] . '</p>';
+    }
+    if (isset($_GET['success']) && !empty($_GET['success'])) {
+        echo '<p class="error">' . $_GET['message'] . '</p>';
+    }
+    ?>
 				</div>
 			</div>
 
