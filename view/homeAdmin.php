@@ -29,8 +29,8 @@
 		</div>
 	</header>
 	<section class="banner">
-		<img class="banner_img" src="./public/assets/pictures/modif_i.webp" alt="photo large saint benoit" />
-		<h1>LES HAUTS DE SAINT-BENOIT</h1>
+		<img class="banner_img" src="./public/assets/pictures/mountain.jpg"  srcset="./public/assets/pictures/mountain.jpg  200h" alt="photo large gratuite" />
+		<h1>App crud php</h1>
 	</section>
 	<section class="formulaire_admin_section">
 	<?php echo '<h2 class="welcome">Bienvenue ' . $_SESSION['user_name'] . '</h2>' ?>

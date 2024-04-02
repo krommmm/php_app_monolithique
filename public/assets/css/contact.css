@@ -143,6 +143,7 @@ h1,
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
+		padding: 30px;
 	}
 	body .googleMap {
 		margin-top: 50px;

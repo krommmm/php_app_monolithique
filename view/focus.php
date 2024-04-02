@@ -32,7 +32,6 @@
 	<section class="focus">
 		<div class="focus_container">
 			<?php 
-			// echo '	<h1>' . $lot['name'] . '</h1> ' 
 			?>
 			<div class="left">
 				<div class="top">
@@ -78,7 +77,7 @@
 			<div class="right">
 				<div class="top">
 					<h2>Contactez moi </h2>
-					<p>06-80-53-01-26</p>
+					<p>##-##-##-##-##</p>
 				</div>
 				<div class="bottom">
 

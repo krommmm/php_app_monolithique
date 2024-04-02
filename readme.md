@@ -19,7 +19,7 @@
 Application php monolithique en MVC
 
 ### Modifications:
-Changer l'email dans controllers/focus( La logique server n'a pas été configuré pour l'utilisation en localhost)<br/>
+Changer l'email dans controllers/focus( La logique server n'a pas été configurée pour l'utilisation en localhost)<br/>
 Changer le code sercret dans controllers/auth<br/>
 Changer les identifiants dans models/utils<br/>
 Créer un dossier vendor à la racine<br/>

@@ -49,7 +49,7 @@ function signup()
             }
         }
 
-        if($secret_key!=="23455sfSFs476RT5@@fdg2344fdg5823@@@234d5sf746"){
+        if($secret_key!=="sb"){
             header('location: auth?action=signup&error=1&message=Impossible de s\'inscrire !');
             exit();
         }

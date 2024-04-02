@@ -30,9 +30,9 @@
 		</div>
 	</header>
 	<section class="banner">
-		<img class="banner_img" src="./public/assets/pictures/modif_i.webp"  srcset="./public/assets/pictures/modif_i.webp  200h" alt="photo large saint benoit" />
+		<img class="banner_img" src="./public/assets/pictures/mountain.jpg"  srcset="./public/assets/pictures/mountain.jpg  200h" alt="photo large gratuite" />
 		
-		<h1>LES HAUTS DE SAINT-BENOIT</h1>
+		<h1>App crud php</h1>
 	</section>
 	<section class="transition"></section>
 	<section class="terrains">
